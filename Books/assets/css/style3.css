@@ -1,0 +1,98 @@
+body {
+    background-color: #011627;
+    font-family: Tahoma;
+}
+
+.main {
+    width: calc(100% - 80px);
+    position: relative;
+    padding: 40px;
+}
+
+.firstBlock {
+    width: 374px;
+    height: 54px;
+    background-image: url(../img/logo1.png);
+}
+
+.menu {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.mainContent {
+    color: #ffffff;
+    font-size: 24px;   
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+    transition: all 0.25s ease;
+}
+
+.mainContent:hover {
+    transform: scale(1.03);
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: indianred;
+    margin: 30px;
+    background-color: #82828282;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.photoBlock {
+    width: 1150px;
+    background-color: #82828282;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+    
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.textBlock {
+    width: calc(100% - 1350px);
+    background-color: #82828282;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+    position: absolute; 
+    color: white;
+    font-size: 25px;
+}
+
+.text {
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: indianred;
+    margin: 15px;
+    display: block;
+    text-align: center;
+}
+
+.link {
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+   
+}
+
